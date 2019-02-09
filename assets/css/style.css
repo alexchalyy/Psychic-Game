@@ -1,0 +1,18 @@
+/*  This is css file that styles the Psychic Game.
+
+    Written by Alex Chalyy on 2/8/2019. */
+
+/*  This puts nice gray background for the page. */
+
+body    {
+    background-image: url("../images/handmadepaper.png");
+}
+
+/*  This centers the card. */
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 15%;
+}
