@@ -1,0 +1,36 @@
+Psychic Game Javascript Pseudo Code.
+
+
+1.	Set wins, losses, guesses to 0 and guessedletters to "". (console log it).
+
+2.	Guess a random letter. Console log it.
+
+3.	Accept user entered character. Console log it.
+
+4.	If user entered correct letter (Win!)
+
+		Wins++ (display it on screen)
+
+		Guesses = 0 (display it on screen)
+
+		Guessed letters = "" (display it on screen)	
+
+		Go to step 2
+
+	else if guess == 9 (Loss)
+
+		Losses++; (display it on screen)
+
+		Guesses = 0 (display it on screen)
+		
+		Guessed letters = "" (display it on screen)
+
+		Go to step 2
+
+	else	
+
+		Guess++ (display it on screen)
+
+		Guessed letter + incorrectedly guessed letter (display it on screen)
+
+		Go to step 3
